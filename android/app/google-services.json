@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79703328008",
+    "project_id": "combi-21ac9",
+    "storage_bucket": "combi-21ac9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79703328008:android:d5f31e6ae31f7b51a2d8bd",
+        "android_client_info": {
+          "package_name": "com.example.kombi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxWEk3lWn4EDNbnrjo6HwSYICYoIn0bqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

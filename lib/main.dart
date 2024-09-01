@@ -1,6 +1,7 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:combi/pages/cart_page.dart';
+import 'package:combi/pages/preference_page.dart';
 import 'package:combi/pages/shop_page.dart';
 import 'package:combi/screens/on_boarding_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -72,6 +73,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const AuthGate(),
         '/shop_page': (context) => const ShopPage(),
         '/cart_page':(context) => const CartPage(),
+        '/perference_page':(context)=> const PreferencePage()
         // '/settings_page':(context) => const P()
         
       },

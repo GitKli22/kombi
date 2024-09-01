@@ -26,10 +26,10 @@ class _HomePageState extends State<HomePage> {
     _currentIndex = widget.initialIndex; // Initialiser _currentIndex avec l'argument passé
   }
 
-  Widget renderWidget(int index) {
+  Widget renderWidget(context, int index) {
     switch (index) {
       case 0:
-        return homeWidget();
+        return homeWidget(context);
       case 1:
         return dashboardWidget();
       case 2:
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
       case 4:
         return settingsWidget();
       default:
-        return homeWidget();
+        return homeWidget(context);
     }
   }
 
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[800],
-      body: renderWidget(_currentIndex),
+      body: renderWidget(context, _currentIndex),
       bottomNavigationBar: CurvedNavigationBar(
         index: _currentIndex,
         backgroundColor: Theme.of(context).colorScheme.background,

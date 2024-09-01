@@ -42,7 +42,7 @@ class ShopItem extends StatelessWidget {
                     child: Container(
                       // padding: EdgeInsets.all(4),
                       color: Colors.orange,
-                      child: Image.network(
+                      child: Image.asset(
                         imageUrl, // URL de l'image
                         fit: BoxFit.cover,
                         width: 70,
@@ -85,7 +85,7 @@ class ShopItem extends StatelessWidget {
                         locationMap,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.grey,
+                          color: Colors.green,
                           fontSize: 13,
                         ),
                       ),
